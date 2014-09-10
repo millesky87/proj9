@@ -1,0 +1,58 @@
+body {background-color: #2CA0C7;
+}
+a { text-decoration: none
+}
+a:hover {
+	text-decoration: underline;
+}
+.pins:hover {
+	-webkit-box-shadow: 0 4px 6px 6px #686868;
+	   -moz-box-shadow: 0 4px 6px 6px #686868;
+	        box-shadow: 0 4px 6px 6px #686868;
+
+}
+.container {
+	max-width: 800px;
+	margin: 100px  auto;
+}
+.pins {
+	display: inline-block;
+	height: 230px;
+	width: 220px;
+	background: #fff;
+	border: solid 1px black;
+	margin: 13px;
+ 	padding: 2px;
+   border-radius: 30px;
+}
+.img {
+ 	width: 215px;
+ 	margin: 2px;
+   border-radius: 30px
+}
+.title {
+ 	width: 215px;
+ 	margin-left: 3px;
+ 	font-size: 15px;
+ 	white-space: nowrap;
+ 	overflow: hidden;
+}
+.title-color {
+	color: #000;
+}
+.shop {
+ 	display: inline-block;
+ 	margin-top: 5px;
+ 	margin-left: 3px;
+ 	font-size: 14px;
+}
+.shop-color {
+ 	color: #b2b2b2;
+}
+.price {
+	float: right;
+  	font-size: 14px;
+  	color: #78c042;
+ 	margin-right: 5px;
+  	margin-top: 5px;
+}
